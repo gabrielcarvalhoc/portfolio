@@ -6,21 +6,57 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     color: #0f2d3a;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #f1f5fa;
 }
 
+.home {
+    height: 100vh;
+}
+
+/* Header */
+
 .navbar {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 20px 40px;
+    margin: 0 3vw;
+    padding-top: 20px;
+    height: 5vh;
 }
 
 .navbar li a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
+}
+
+/* Home */
+
+.name {
+    padding-left: 15vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name h1 {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.name h1 span {
+    font-weight: 900;
+}
+
+.name p {
+    font-size: 24px;
+}
+
+.name .auto-input {
+    color: #616161;
 }
