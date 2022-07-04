@@ -43,6 +43,10 @@ body {
     color: var(--blue);
 }
 
+.navbar li a:hover {
+    border-bottom: 2px solid var(--blue);  
+}
+
 /* Home */
 
 .name {
