@@ -344,7 +344,7 @@ body {
     width: 35vw;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .contact-icons a {
@@ -354,6 +354,25 @@ body {
 
 .contact-icons a:hover {
     color: var(--lilac);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+footer p:nth-child(1) {
+    font-size: 18px;
+}
+
+footer p:nth-child(1) span {
+    font-weight: 700;
 }
 
 /* Scroll animation */
