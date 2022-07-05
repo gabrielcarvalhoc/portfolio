@@ -382,6 +382,7 @@ footer {
 
 footer p:nth-child(1) {
     font-size: 18px;
+    text-align: center;
 }
 
 footer p:nth-child(1) span {
@@ -444,5 +445,116 @@ footer p:nth-child(1) span {
     100% {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .project-card {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #about {
+        height: auto;  
+    }
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #about {
+        height: auto;  
+    }
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .about-text {
+        width: 100%;
+        hyphens: auto;
+    }
+    .about-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    #skills {
+        height: auto;
+    }
+    .skills-container {
+        height: auto;
+        flex-direction: column;
+    }
+    .skill-card {
+        margin-bottom: 30px;
+    }
+
+    .contact-text,
+    .contact-icons {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar li a {
+        font-size: 14px;
+    }
+
+    .name p {
+        font-size: 22px;
+    }
+
+    #about {
+        height: auto;  
+    }
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .about-text {
+        width: 100%;
+        font-size: 16px;
+        hyphens: auto;
+    }
+    .about-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    #skills {
+        height: auto;
+    }
+    .skills-container {
+        height: auto;
+        flex-direction: column;
+    }
+    .skill-card {
+        margin-bottom: 30px;
+    }
+
+    .contact-text,
+    .contact-icons {
+        width: auto;
+    }
+    .contact-text {
+        font-size: 16px;
     }
 }
