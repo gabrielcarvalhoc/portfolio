@@ -117,9 +117,8 @@ body {
     padding-bottom: 20px;
 }
 
-.about-text a {
+.about-text span {
     color: var(--lilac);
-    text-decoration: none;
 }
 
 .about-img {
@@ -401,15 +400,15 @@ footer p:nth-child(1) span {
 }
 
 .active.fade-bottom {
-    animation: fade-bottom 2s ease-in;
+    animation: fade-bottom 1s ease-in;
 }
 
 .active.fade-left {
-    animation: fade-left 2s ease-in;
+    animation: fade-left 1s ease-in;
 }
 
 .active.fade-right {
-    animation: fade-right 2s ease-in;
+    animation: fade-right 1s ease-in;
 }
 
 @keyframes fade-bottom {
